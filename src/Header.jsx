@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { House, Scroll, ImageSquare, AngularLogo, User } from 'phosphor-react'
+import Headers from './Headers'
 
 const Header = () => {
   return (
