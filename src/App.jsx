@@ -5,10 +5,12 @@ import Blog from './Blog'
 import Contact from './Contact'
 import Gallery from './Gallery'
 import About from './About'
+import Header from './Header'
 
 const App = () => {
   return (
     <BrowserRouter>
+      <Header/>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/blog' element={<Blog/>}></Route>

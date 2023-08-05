@@ -65,7 +65,7 @@ body{
 }
 
 .navigation ul li.active a .icon{
-    transform: translateY(-41px);
+    transform: translateY(-29px);
     /* transform: rotate3d(0, 1, 0, 60deg); */
 }
 .navigation ul li a .text{
@@ -81,4 +81,36 @@ body{
 .navigation ul li.active a .text{
     opacity: 1;
     transform: translateY(10px);
+}
+.indicator{
+    position: absolute;
+    top: -50%;
+    width: 70px;
+    height: 70px;
+    background: #29fd53;
+    border-radius: 50%;
+    border: 6px solid var(--clr);
+    transition: 0.5s;
+}
+.indicator::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    width: 17.2px;
+    height: 20px;
+    background: transparent;
+    border-top-right-radius: 50px;
+    box-shadow: 0px -10px 0 0 var(--clr);
+}
+.indicator::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    width: 17.2px;
+    height: 20px;
+    background: transparent;
+    border-top-left-radius: 50px;
+    box-shadow: 0px -10px 0 0 var(--clr);
 }
