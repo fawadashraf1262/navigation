@@ -1,8 +1,9 @@
 import React from 'react'
+import './css/Home.css'
 import { Link } from 'react-router-dom'
 const Home = () => {
   return (
-    <div  style={{textAlign: "center",color: "white"}}>
+    <div className='App'  style={{textAlign: "center"}}>
       <h1>Hello world</h1>    
     </div>
   )
