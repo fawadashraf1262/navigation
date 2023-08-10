@@ -1,4 +1,40 @@
 .App{
     background-color: red;
     color: aqua;
+    margin-top: 5px;
+    border-radius: 10px;
+    height: 200px;
+    display: grid;
+    /* text-align: center; */
+    align-items: center;
+    
+    grid-template-columns: 1fr  1fr 1fr 1fr;
+}
+.a{
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    height: 100px;
+}
+.b{
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: teal;
+    height: 100px;
+}
+.c{
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    height: 100px;
+}
+.d{
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    height: 100px;
 }

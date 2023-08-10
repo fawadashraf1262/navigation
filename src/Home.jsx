@@ -5,7 +5,10 @@ const Home = () => {
   
   return (
     <div className='App'  style={{textAlign: "center"}}>
-      <h1>Hello world</h1>    
+      <div className="a">A</div> 
+      <div className="b">B</div>
+      <div className="c">C</div>
+      <div className="d">D</div>
     </div>
   )
 }
