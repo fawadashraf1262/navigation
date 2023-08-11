@@ -4,11 +4,8 @@ import { Link } from 'react-router-dom'
 const Home = () => {
   
   return (
-    <div className='App'  style={{textAlign: "center"}}>
-      <div className="a">A</div> 
-      <div className="b">B</div>
-      <div className="c">C</div>
-      <div className="d">D</div>
+    <div className='App'  style={{textAlign: "center",color: "white"}}>
+      <h1>Home</h1>
     </div>
   )
 }
