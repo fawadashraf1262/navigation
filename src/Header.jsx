@@ -15,7 +15,7 @@ const Header = () => {
         <li className={`list ${activeTab === 'Home' ? 'active' : ''}`}>
           <Link to='/' onClick={() => handleTabClick('Home')}>
             <span className='icon'><House size={32} weight="thin" /></span>
-            <span className='text'>Hme</span>
+            <span className='text'>Home</span>
           </Link>
         </li>
         <li className={`list ${activeTab === 'Blog' ? 'active' : ''}`}>
